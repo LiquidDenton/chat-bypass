@@ -118,7 +118,7 @@ public class ModuleExample extends Module {
   private static String rlo(String msg) {
     // following line contains the RLO
     // if it looks reversed, that's why
-    msg += "";
+    msg += "‮";
     msg = new StringBuilder(msg).reverse().toString();
     return msg;
   }
